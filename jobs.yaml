@@ -1,0 +1,104 @@
+jobs:
+  - company: "Career break, professional development"
+    logo: "https://cdn-icons-png.flaticon.com/512/3135/3135755.png"
+    logo_width: "60px"
+    logo_height: "60px"
+    positions:
+      - title: "Self-directed Learning & Personal Projects"
+        period: "June 2025 - Present"
+        responsibilities:
+          - "Focused on expanding cloud architecture and DevOps expertise through hands-on personal projects and self-directed learning. Explored emerging technologies including AI/ML integration with cloud infrastructure, advanced Kubernetes patterns, and platform engineering practices. Maintained and improved personal homelab environment for continuous experimentation with new tools and methodologies."
+
+  #  - company: "Fenny Solutions"
+  #    logo: "https://www.fennysolutions.com/static/assets/images/fenny-horizontal-color.svg"
+  #    logo_width: "100px"
+  #    logo_height: "50px"
+  #    positions:
+  #      - title: "Senior DevOps Engineer"
+  #        period: "March 2025 - recent"
+  #        responsibilities:
+  #          - "In my role at Fenny Solutions, I focus primarily on Google Cloud Platform (GCP) infrastructure and services. My responsibilities include designing and implementing cloud architectures on GCP, managing Google Kubernetes Engine (GKE) clusters for container orchestration, and provisioning infrastructure using Terraform. I work extensively with GCP services such as Cloud Run, Cloud Functions, BigQuery, Cloud Storage, and Pub/Sub. I am responsible for setting up and maintaining CI/CD pipelines integrated with GCP, implementing IAM policies and security best practices, and optimizing cloud costs. Additionally, I handle monitoring and observability using Google Cloud Monitoring and Logging, ensuring high availability and performance of cloud-native applications."
+
+  #  - company: "Wiser Technology"
+  #    logo: "https://investor.wisertech.com/wp-content/uploads/2024/12/wiser_logo.png"
+  #    logo_width: "150px"
+  #    logo_height: "30px"
+  #    positions:
+  #      - title: "Sr. DevOps Engineer"
+  #        period: "June 2025 - recent"
+  #        responsibilities:
+  #          - "Designed and operated the end-to-end cloud delivery workflow on GCP, covering environment provisioning, CI/CD enablement, automated GitLab workflows, and platform observability. Led DevOps ownership for multi-environment rollout, SDLC planning, and alignment with the client's infrastructure and security policies."
+  #
+  #  - company: "NTT DATA Business Solutions"
+  #    logo: "https://cdn.brandfetch.io/idleaUWqtx/w/320/h/320/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B"
+  #    logo_width: "100px"
+  #    logo_height: "100px"
+  #    positions:
+  #      - title: "Sr. DevOps Engineer"
+  #        period: "March 2025 - June 2025"
+  #        responsibilities:
+  #          - "In this role, I have been outsourced through NTT Data as a DevOps consultant for a leading technology company. My responsibilities have included designing and advising on DevOps process architecture by organizing concepts into well-defined abstraction layers, supported by comprehensive documentation and diagrams. I have also contributed to the exposure and internal adoption of an open-sourced internal product. My work spans across implementing CI/CD pipeline solutions, Kubernetes-based deployments, and infrastructure provisioning using Terraform."
+  #
+  - company: "EADX"
+    logo: "https://www.eadx.com/wp-content/uploads/2023/03/site-logo.svg"
+    logo_width: "100px"
+    logo_height: "50px"
+    positions:
+      - title: "DevOps Engineer"
+        period: "May 2023 - March 2025"
+        responsibilities:
+          - "In my role at EADX, I was responsible for managing and optimizing the Kong API Gateway and orchestrating containerized applications using Kubernetes on Google Cloud Platform (GCP). I gained hands-on experience in infrastructure as code through Terraform and was actively involved in setting up CI/CD pipelines using GitLab. My primary focus was managing Google Kubernetes Engine (GKE), ensuring seamless deployment and scalability of applications. I had extensive experience with GCP services, focusing on cloud architecture, networking, and deployment best practices. Additionally, I worked on an enterprise CI/CD project in the banking sector, contributing to both CI and CD ends, with ArgoCD for GitOps-based deployments."
+
+  - company: "Software AG"
+    logo: "https://www.softwareag.com/app/uploads/2025/09/software-gmbh-light-bg-logo.svg"
+    logo_width: "150px"
+    logo_height: "80px"
+    positions:
+      - title: "System Service Engineer, IoT / DevOps Engineer"
+        period: "Jan 2021 - Feb 2023"
+        responsibilities:
+          - "At Software AG, I played a role in provisioning and maintaining the software and infrastructure for the company's IoT Cumulocity product. My responsibilities spanned across various hyper-scalers and bare-metal environments, with a primary focus on Google Cloud Platform (GCP). I was instrumental in deploying and upgrading software and infrastructure using modern automation tools. I also took part in monitoring schedules and fine-tuned the system monitoring architecture. My expertise in ELK Stack and Grafana Stack was conclusive for deploying effective monitoring solutions. Proficient in managing cloud environments primarily on GCP, with a focus on scalability, security, and cost optimization."
+
+  - company: "ETI Software Solutions"
+    logo: "https://etisoftware.com/wp-content/themes/twentytwenty-child-theme/img/ETI_bug_21.png"
+    logo_width: "80px"
+    logo_height: "80px"
+    positions:
+      - title: "PHP Integration Developer"
+        period: "Oct 2018 - Jan 2021"
+        responsibilities:
+          - "During my tenure at ETI Software Solutions, I specialized in developing PHP software tailored to client needs. I was responsible for integrating applications to communicate with external backend systems using PHP and Laravel. My role also involved developing automatically generated Excel reports by collecting data from various database servers like MySQL and MSSQL."
+      - title: "Data Migration Engineer"
+        period: "Oct 2017 - Sep 2018"
+        responsibilities:
+          - "In this role, I was deeply involved in data analysis and processing. I developed scripts tailored to specific data migration needs, working with databases like MySQL, MSSQL, and PostgreSQL. My work involved ETL processes, ensuring that data was extracted, transformed, and loaded efficiently and accurately. I was a key player in data migration and ETL processes, ensuring seamless data flow and integrity."
+
+  - company: "Dzhebel-96/Kyashif Ltd."
+    logo: "https://storage.googleapis.com/emkpublic/kyashif/Images/misc/KSFLogo45Years.png"
+    logo_width: "120px"
+    logo_height: "35px"
+    positions:
+      - title: "Hardware Maintenance Engineer"
+        period: "Aug 2016 - Jul 2017"
+        responsibilities:
+          - "At Dzhebel96&Kyashif Ltd, I was responsible for networking and maintaining server rooms. My role involved working with Cisco Meraki Security Appliance, switching, and wireless technologies. I collaborated with various departments, including IT specialists, maintenance departments, and quality inspectors, to optimize and build up the infrastructure."
+
+  - company: "Global Net Ltd."
+    logo: "https://globalnet-bg.com/wp-content/uploads/2017/06/logo-globalnet.png"
+    logo_width: "120px"
+    logo_height: "50px"
+    positions:
+      - title: "System Network Administrator"
+        period: "Oct 2015 - Aug 2016"
+        responsibilities:
+          - "In this role, I was in charge of networking and implementing VLANs and static routing. I worked with a variety of vendor network devices, including Cisco, MikroTik, and TP-Link. My responsibilities also included server room cable arrangement and administration of antenna devices. I optimized and maintained Linux systems and was leading the deployment of VoIP and monitoring projects using Nagios and Zabbix."
+
+  - company: "Neterra Ltd, Sofia"
+    logo: "https://neterra.net/images/upload/brands/logo-neterra_1.svg"
+    logo_width: "150px"
+    logo_height: "80px"
+    positions:
+      - title: "VSOC Engineer (Video services operations center)"
+        period: "Jan 2015 - Oct 2015"
+        responsibilities:
+          - "At Neterra, I was responsible for direct communication with corporate and end customers, focusing on video products and services. I used customized Neterra software for surveillance and diagnostics, identifying potential vulnerabilities and problems. I was also involved in the lifecycle management, content management, and quality assurance of IPTV platforms."

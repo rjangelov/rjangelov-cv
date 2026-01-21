@@ -1,0 +1,68 @@
+profile:
+  name: "Radomir Angelov"
+  title: "DevOps Engineer"
+  email: "rado@rjangelov.com"
+  location: "Plovdiv, Bulgaria"
+  linkedin: "https://www.linkedin.com/in/radomir-angelov-4945a119b/"
+  github: "https://github.com/rjangelov"
+
+education:
+  - institution: "Technical University of Sofia"
+    degree: "Bachelor's degree, Telecommunications Engineering"
+    period: "2012 - 2016"
+  - institution: "Technical University of Sofia"
+    degree: "Master's degree, Telecommunications Engineering"
+    period: "2016 - 2018"
+
+technical_skills:
+  - skill: "Programming languages - PHP, Python, Bash"
+    logos:
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"
+  - skill: "Containers & orchestration - Docker, K8S(including on prem cluster bootstrapping), AKS, EKS, GKE"
+    logos:
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
+  - skill: "Infrastructure automation - Chef, Ansible, Helm"
+    logos:
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg"
+  - skill: "Version control - SVN, Git"
+    logos:
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+  - skill: "Task management - Jira, OTRS, Service Now"
+    logos:
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"
+  - skill: "Cloud platforms, Hyperscalers - AWS, Azure, GCP)"
+    logos:
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"
+  - skill: "Infrastructure provisioning - Terraform, Vagrant"
+    logos:
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vagrant/vagrant-original.svg"
+  - skill: "CI/CD (ArgoCD, GitLab, Github Actions, Azure pipelines, Jenkins)"
+    logos:
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/argocd/argocd-original.svg"
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg"
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg"
+  - skill: "Observability stacks, Log analysis and visualization - ELK stack, Grafana stack, Prometheus"
+    logos:
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg"
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg"
+
+ms_transcript:
+  url: "https://learn.microsoft.com/en-gb/users/angelovradomir-9552/transcript/d8y26b80n1mkywo?tab=credentials-tab"
+
+languages:
+  - "Bulgarian - Mother tongue (native)"
+  - "English - Upper-intermediate (B2)"
+  - "German - Basic proficiency (A1)"
+
+hobbies:
+  - "Remote working"
+  - "Martial Arts"
+  - "Open Source, Linux, Distributed systems"

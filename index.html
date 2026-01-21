@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Radomir Angelov - Senior DevOps / Platform Engineer | Cloud Delivery (AWS, GCP, Azure) | Kubernetes, GitOps, CI/CD</title>
+    <meta name="title" content="Radomir Angelov - Senior DevOps / Platform Engineer | Cloud Delivery (AWS, GCP, Azure) | Kubernetes, GitOps, CI/CD">
+    <meta name="description" content="Senior DevOps & Platform Engineer specializing in Cloud Delivery (AWS, GCP, Azure), Kubernetes, GitOps, CI/CD, and SDLC. Certified CKA, Terraform Associate, and Azure DevOps Expert. Available for contracting.">
+    <meta name="keywords" content="DevOps Engineer, Senior DevOps, Platform Engineer, Contracting, Cloud Delivery, Kubernetes, Terraform, GCP, Azure, AWS, CI/CD, Docker, ArgoCD, GitOps, SDLC, Cloud Infrastructure, Bulgaria, Plovdiv, CKA, Certified Kubernetes Administrator">
+    <meta name="author" content="Radomir Angelov">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="theme-color" content="#2D2B2A">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://rjangelov.com/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rjangelov.com/">
+    <meta property="og:title" content="Radomir Angelov - Senior DevOps / Platform Engineer | Cloud Delivery (AWS, GCP, Azure)">
+    <meta property="og:description" content="Senior DevOps & Platform Engineer specializing in Cloud Delivery (AWS, GCP, Azure), Kubernetes, GitOps, CI/CD, and SDLC. Available for contracting.">
+    <meta property="og:image" content="https://rjangelov.com/og-image.png">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Radomir Angelov - DevOps Engineer">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://rjangelov.com/">
+    <meta name="twitter:title" content="Radomir Angelov - Senior DevOps / Platform Engineer | Cloud Delivery (AWS, GCP, Azure)">
+    <meta name="twitter:description" content="Senior DevOps & Platform Engineer specializing in Cloud Delivery (AWS, GCP, Azure), Kubernetes, GitOps, CI/CD, and SDLC. Available for contracting.">
+    <meta name="twitter:image" content="https://rjangelov.com/og-image.png">
+
+    <!-- Structured Data - Person -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Radomir Angelov",
+        "jobTitle": "Senior DevOps / Platform Engineer",
+        "email": "rado@rjangelov.com",
+        "url": "https://rjangelov.com",
+        "sameAs": [
+            "https://www.linkedin.com/in/radomir-angelov-4945a119b/",
+            "https://github.com/rjangelov"
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Plovdiv",
+            "addressCountry": "Bulgaria"
+        },
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Technical University of Sofia"
+        },
+        "knowsAbout": [
+            "Kubernetes",
+            "Terraform",
+            "Docker",
+            "Google Cloud Platform",
+            "Microsoft Azure",
+            "Amazon Web Services",
+            "CI/CD",
+            "ArgoCD",
+            "GitOps",
+            "Infrastructure as Code",
+            "Platform Engineering",
+            "DevOps"
+        ],
+        "hasCredential": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Certified Kubernetes Administrator (CKA)",
+                "credentialCategory": "certification"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "HashiCorp Certified: Terraform Associate",
+                "credentialCategory": "certification"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Microsoft Certified: DevOps Engineer Expert (AZ-400)",
+                "credentialCategory": "certification"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "LPIC-1",
+                "credentialCategory": "certification"
+            }
+        ]
+    }
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #2D2B2A;
+            --bg-secondary: #1A1918;
+            --bg-terminal: #1E1C1B;
+            --accent-orange: #DA7756;
+            --accent-orange-light: #E8956F;
+            --accent-beige: #F5E6D3;
+            --accent-tan: #D4A574;
+            --text-primary: #F5E6D3;
+            --text-secondary: #B8A89A;
+            --text-muted: #8A7A6C;
+            --dot-red: #FF5F56;
+            --dot-yellow: #FFBD2E;
+            --dot-green: #27C93F;
+            --border-color: #3D3A38;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'JetBrains Mono', monospace;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .terminal-card {
+            background: var(--bg-terminal);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--border-color);
+        }
+
+        .terminal-header {
+            background: var(--bg-secondary);
+            padding: 14px 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .terminal-dot {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+        }
+
+        .terminal-dot.red { background: var(--dot-red); }
+        .terminal-dot.yellow { background: var(--dot-yellow); }
+        .terminal-dot.green { background: var(--dot-green); }
+
+        .terminal-title {
+            margin-left: 12px;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        .terminal-body {
+            padding: 32px;
+            font-size: 14px;
+        }
+
+        .terminal-line {
+            margin-bottom: 8px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+        }
+
+        .terminal-prompt {
+            color: var(--accent-orange);
+            margin-right: 8px;
+            font-weight: 600;
+        }
+
+        .terminal-command {
+            color: var(--accent-beige);
+        }
+
+        .terminal-output {
+            color: var(--text-secondary);
+            padding-left: 20px;
+        }
+
+        .terminal-key {
+            color: var(--accent-orange);
+        }
+
+        .terminal-value {
+            color: var(--accent-tan);
+        }
+
+        .terminal-comment {
+            color: var(--text-muted);
+            font-style: italic;
+        }
+
+        /* Section Divider */
+        .section {
+            margin-bottom: 48px;
+            padding-bottom: 48px;
+            border-bottom: 1px dashed var(--border-color);
+        }
+
+        .section:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        /* Profile Section */
+        .profile-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 16px;
+            margin-top: 16px;
+        }
+
+        .profile-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .profile-label {
+            color: var(--accent-orange);
+            min-width: 100px;
+        }
+
+        .profile-value {
+            color: var(--text-primary);
+        }
+
+        .profile-value a {
+            color: var(--accent-tan);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .profile-value a:hover {
+            color: var(--accent-orange-light);
+            text-decoration: underline;
+        }
+
+        /* Section Headers */
+        .section-header {
+            color: var(--accent-orange);
+            font-size: 16px;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section-header::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--border-color);
+        }
+
+        .command-line {
+            margin-bottom: 20px;
+        }
+
+        /* Skills Grid */
+        .skills-grid {
+            display: grid;
+            gap: 16px;
+        }
+
+        .skill-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            padding: 12px;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        .skill-logos {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            min-width: 80px;
+        }
+
+        .skill-logos img {
+            width: 28px;
+            height: 28px;
+            filter: brightness(0.9);
+        }
+
+        .skill-text {
+            color: var(--text-secondary);
+            flex: 1;
+        }
+
+        /* Jobs Section */
+        .job-card {
+            margin-bottom: 24px;
+            padding: 20px;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        .job-card:last-child {
+            margin-bottom: 0;
+        }
+
+        .job-header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+
+        .job-logo {
+            max-height: 50px;
+            max-width: 120px;
+            object-fit: contain;
+            filter: brightness(0.95);
+        }
+
+        .job-company {
+            color: var(--accent-orange);
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .position-item {
+            margin-bottom: 16px;
+            padding-left: 16px;
+            border-left: 2px solid var(--accent-orange);
+        }
+
+        .position-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .position-title {
+            color: var(--text-primary);
+            font-weight: 500;
+            margin-bottom: 4px;
+        }
+
+        .position-period {
+            color: var(--accent-tan);
+            font-size: 13px;
+            margin-bottom: 8px;
+        }
+
+        .position-responsibilities {
+            color: var(--text-secondary);
+            font-size: 13px;
+            line-height: 1.7;
+        }
+
+        /* Education & Languages */
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 32px;
+        }
+
+        .education-item, .language-item {
+            padding: 12px 16px;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            margin-bottom: 12px;
+            border: 1px solid var(--border-color);
+        }
+
+        .education-item:last-child, .language-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .education-degree {
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+
+        .education-institution {
+            color: var(--accent-tan);
+            font-size: 13px;
+        }
+
+        .education-period {
+            color: var(--text-muted);
+            font-size: 12px;
+        }
+
+        /* Certificates */
+        .certificates-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 16px;
+        }
+
+        .certificate-item {
+            text-align: center;
+            padding: 16px;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            transition: transform 0.2s, border-color 0.2s;
+        }
+
+        .certificate-item:hover {
+            transform: translateY(-2px);
+            border-color: var(--accent-orange);
+        }
+
+        .certificate-item a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .credly-badge {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 12px;
+            object-fit: contain;
+            border-radius: 8px;
+            background: var(--bg-terminal);
+        }
+
+        .certificate-name {
+            color: var(--text-secondary);
+            font-size: 12px;
+            line-height: 1.4;
+        }
+
+        /* Other Certs */
+        .other-certs {
+            margin-top: 32px;
+        }
+
+        .other-cert {
+            display: inline-block;
+            padding: 8px 16px;
+            background: var(--bg-secondary);
+            border-radius: 20px;
+            margin: 4px;
+            font-size: 12px;
+            color: var(--text-secondary);
+            border: 1px solid var(--border-color);
+        }
+
+        .other-cert-provider {
+            color: var(--accent-tan);
+        }
+
+        /* Hobbies */
+        .hobbies-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .hobby-tag {
+            padding: 8px 20px;
+            background: var(--bg-secondary);
+            border-radius: 20px;
+            color: var(--text-secondary);
+            border: 1px solid var(--accent-orange);
+            font-size: 13px;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 32px;
+            padding-top: 24px;
+            border-top: 1px dashed var(--border-color);
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 12px;
+        }
+
+        .footer a {
+            color: var(--accent-orange);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            body {
+                padding: 12px;
+            }
+
+            .terminal-body {
+                padding: 20px;
+            }
+
+            .two-column {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+
+            .job-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .profile-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .certificates-grid {
+                grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            }
+
+            .credly-badge {
+                width: 80px;
+                height: 80px;
+            }
+
+            .skill-item {
+                flex-direction: column;
+            }
+
+            .skill-logos {
+                min-width: auto;
+            }
+
+            .section {
+                margin-bottom: 32px;
+                padding-bottom: 32px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .terminal-title {
+                font-size: 12px;
+            }
+
+            .terminal-body {
+                padding: 16px;
+                font-size: 13px;
+            }
+
+            .section-header {
+                font-size: 14px;
+            }
+
+            .certificates-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        /* Navigation */
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border-color);
+            z-index: 1000;
+            padding: 0 20px;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 60px;
+        }
+
+        .nav-logo {
+            color: var(--accent-orange);
+            font-weight: 600;
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        .nav-logo:hover {
+            color: var(--accent-orange-light);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 8px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 13px;
+            transition: all 0.2s;
+        }
+
+        .nav-links a:hover {
+            color: var(--text-primary);
+            background: var(--bg-terminal);
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 5px;
+            padding: 10px;
+            margin-right: -10px;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 2px;
+            background: var(--accent-orange);
+            transition: all 0.3s;
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -5px);
+        }
+
+        /* Mobile nav */
+        @media (max-width: 768px) {
+            body {
+                padding-top: 72px;
+            }
+
+            .nav-links {
+                position: fixed;
+                top: 60px;
+                left: 0;
+                right: 0;
+                background: var(--bg-secondary);
+                flex-direction: column;
+                padding: 16px;
+                gap: 4px;
+                border-bottom: 1px solid var(--border-color);
+                transform: translateY(-100%);
+                opacity: 0;
+                visibility: hidden;
+                transition: all 0.3s ease;
+            }
+
+            .nav-links.active {
+                transform: translateY(0);
+                opacity: 1;
+                visibility: visible;
+            }
+
+            .nav-links a {
+                padding: 12px 16px;
+                font-size: 14px;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+        }
+
+        @media (min-width: 769px) {
+            body {
+                padding-top: 80px;
+            }
+        }
+
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Offset for fixed nav */
+        .section {
+            scroll-margin-top: 80px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="mailto:rado@rjangelov.com" class="nav-logo">rado@rjangelov.com</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="terminal-card">
+            <div class="terminal-header">
+                <div class="terminal-dot red"></div>
+                <div class="terminal-dot yellow"></div>
+                <div class="terminal-dot green"></div>
+                <span class="terminal-title"><a href="mailto:rado@rjangelov.com" style="color: inherit; text-decoration: none;">rado@rjangelov.com</a>:~ $ cat cv.json</span>
+            </div>
+            <div class="terminal-body">
+
+                <!-- Tagline -->
+                <div style="text-align: center; padding: 16px 0; margin-bottom: 16px;">
+                    <p style="color: var(--accent-orange); font-size: 14px; font-weight: 500;">Senior DevOps / Platform Engineer | Cloud Delivery (AWS, GCP, Azure) | Kubernetes, GitOps, CI/CD, SDLC</p>
+                    <p style="color: var(--text-muted); font-size: 12px; margin-top: 8px;">Available for contracting</p>
+                </div>
+
+                <!-- Random DevOps Quote -->
+                <div style="text-align: center; padding: 16px 0 24px; margin-bottom: 24px; border-bottom: 1px dashed var(--border-color);">
+                    <p id="devops-quote" style="font-style: italic; color: var(--accent-tan); font-size: 13px;"></p>
+                </div>
+
+                <!-- Profile Section -->
+                <div class="section" id="profile">
+                    <div class="command-line">
+                        <span class="terminal-prompt">$</span>
+                        <span class="terminal-command">whoami</span>
+                    </div>
+                    <div class="profile-grid">
+                        <div class="profile-item">
+                            <span class="profile-label">"name":</span>
+                            <span class="profile-value">"Radomir Angelov"</span>
+                        </div>
+                        <div class="profile-item">
+                            <span class="profile-label">"role":</span>
+                            <span class="profile-value">"DevOps Engineer"</span>
+                        </div>
+                        <div class="profile-item">
+                            <span class="profile-label">"email":</span>
+                            <span class="profile-value"><a href="mailto:rado@rjangelov.com">"rado@rjangelov.com"</a></span>
+                        </div>
+                        <div class="profile-item">
+                            <span class="profile-label">"location":</span>
+                            <span class="profile-value">"Plovdiv, Bulgaria"</span>
+                        </div>
+                        <div class="profile-item">
+                            <span class="profile-label">"linkedin":</span>
+                            <span class="profile-value"><a href="https://www.linkedin.com/in/radomir-angelov-4945a119b/" target="_blank" style="display: inline-flex; align-items: center; gap: 8px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" style="width: 18px; height: 18px;">"linkedin.com/in/radomir-angelov"</a></span>
+                        </div>
+                        <div class="profile-item">
+                            <span class="profile-label">"github":</span>
+                            <span class="profile-value"><a href="https://github.com/rjangelov" target="_blank" style="display: inline-flex; align-items: center; gap: 8px;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width: 18px; height: 18px; filter: invert(1);">"github.com/rjangelov"</a></span>
+                        </div>
+                        <div class="profile-item">
+                            <span class="profile-label">"ms_learn":</span>
+                            <span class="profile-value"><a href="https://learn.microsoft.com/en-gb/users/angelovradomir-9552/transcript/d8y26b80n1mkywo?tab=credentials-tab" target="_blank">"MS Transcript"</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Technical Skills -->
+                <div class="section" id="skills">
+                    <div class="command-line">
+                        <span class="terminal-prompt">$</span>
+                        <span class="terminal-command">cat skills.json</span>
+                    </div>
+                    <div class="section-header"># Technical Skills</div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-logos">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Bash">
+                            </div>
+                            <span class="skill-text">Programming languages - PHP, Python, Bash</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logos">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes">
+                            </div>
+                            <span class="skill-text">Containers & orchestration - Docker, K8S (including on-prem cluster bootstrapping), AKS, EKS, GKE</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logos">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" alt="Ansible">
+                            </div>
+                            <span class="skill-text">Infrastructure automation - Chef, Ansible, Helm</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logos">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                            </div>
+                            <span class="skill-text">Version control - SVN, Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logos">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" alt="Jira">
+                            </div>
+                            <span class="skill-text">Task management - Jira, OTRS, Service Now</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logos">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="GCP">
+                            </div>
+                            <span class="skill-text">Cloud platforms - AWS, Azure, GCP</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logos">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" alt="Terraform">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vagrant/vagrant-original.svg" alt="Vagrant">
+                            </div>
+                            <span class="skill-text">Infrastructure provisioning - Terraform, Vagrant</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logos">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/argocd/argocd-original.svg" alt="ArgoCD">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" alt="GitLab">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins">
+                            </div>
+                            <span class="skill-text">CI/CD - ArgoCD, GitLab, GitHub Actions, Azure Pipelines, Jenkins</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logos">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" alt="Grafana">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" alt="Prometheus">
+                            </div>
+                            <span class="skill-text">Observability - ELK Stack, Grafana Stack, Prometheus</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience -->
+                <div class="section" id="experience">
+                    <div class="command-line">
+                        <span class="terminal-prompt">$</span>
+                        <span class="terminal-command">cat experience.json</span>
+                    </div>
+                    <div class="section-header"># Professional Experience</div>
+
+                    <!-- Career Break -->
+                    <div class="job-card">
+                        <div class="job-header">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png" alt="Career Break" class="job-logo" style="max-height: 60px;">
+                            <span class="job-company">Career break, professional development</span>
+                        </div>
+                        <div class="position-item">
+                            <div class="position-title">Self-directed Learning & Personal Projects</div>
+                            <div class="position-period">June 2025 - Present</div>
+                            <div class="position-responsibilities">Focused on expanding cloud architecture and DevOps expertise through hands-on personal projects and self-directed learning. Explored emerging technologies including AI/ML integration with cloud infrastructure, advanced Kubernetes patterns, and platform engineering practices. Maintained and improved personal homelab environment for continuous experimentation with new tools and methodologies.</div>
+                        </div>
+                    </div>
+
+                    <!-- EADX -->
+                    <div class="job-card">
+                        <div class="job-header">
+                            <img src="https://www.eadx.com/wp-content/uploads/2023/03/site-logo.svg" alt="EADX" class="job-logo">
+                            <span class="job-company">EADX</span>
+                        </div>
+                        <div class="position-item">
+                            <div class="position-title">DevOps Engineer</div>
+                            <div class="position-period">May 2023 - March 2025</div>
+                            <div class="position-responsibilities">Managed Kong API Gateway and orchestrated containerized applications using Kubernetes on GCP. Infrastructure as code through Terraform, CI/CD pipelines using GitLab. Primary focus on GKE management, cloud architecture, networking, and deployment best practices. Worked on enterprise CI/CD project in the banking sector with ArgoCD for GitOps-based deployments.</div>
+                        </div>
+                    </div>
+
+                    <!-- Software AG -->
+                    <div class="job-card">
+                        <div class="job-header">
+                            <img src="https://www.softwareag.com/app/uploads/2025/09/softwareag_footer_logo.png" alt="Software AG" class="job-logo">
+                            <span class="job-company">Software AG</span>
+                        </div>
+                        <div class="position-item">
+                            <div class="position-title">System Service Engineer, IoT / DevOps Engineer</div>
+                            <div class="position-period">Jan 2021 - Feb 2023</div>
+                            <div class="position-responsibilities">Provisioned and maintained software and infrastructure for the IoT Cumulocity product. Work spanned various hyper-scalers and bare-metal environments with focus on GCP. Deployed and upgraded software using modern automation tools. Fine-tuned system monitoring architecture using ELK Stack and Grafana Stack. Managed cloud environments with focus on scalability, security, and cost optimization.</div>
+                        </div>
+                    </div>
+
+                    <!-- ETI Software Solutions -->
+                    <div class="job-card">
+                        <div class="job-header">
+                            <img src="https://etisoftware.com/wp-content/themes/twentytwenty-child-theme/img/ETI_bug_21.png" alt="ETI Software Solutions" class="job-logo">
+                            <span class="job-company">ETI Software Solutions</span>
+                        </div>
+                        <div class="position-item">
+                            <div class="position-title">PHP Integration Developer</div>
+                            <div class="position-period">Oct 2018 - Jan 2021</div>
+                            <div class="position-responsibilities">Specialized in developing PHP software tailored to client needs. Integrated applications with external backend systems using PHP and Laravel. Developed automatically generated Excel reports from MySQL and MSSQL databases.</div>
+                        </div>
+                        <div class="position-item">
+                            <div class="position-title">Data Migration Engineer</div>
+                            <div class="position-period">Oct 2017 - Sep 2018</div>
+                            <div class="position-responsibilities">Data analysis and processing. Developed scripts for data migration with MySQL, MSSQL, and PostgreSQL. ETL processes ensuring efficient and accurate data extraction, transformation, and loading.</div>
+                        </div>
+                    </div>
+
+                    <!-- Dzhebel-96/Kyashif -->
+                    <div class="job-card">
+                        <div class="job-header">
+                            <img src="https://storage.googleapis.com/emkpublic/kyashif/Images/misc/KSFLogo45Years.png" alt="Kyashif" class="job-logo">
+                            <span class="job-company">Dzhebel-96/Kyashif Ltd.</span>
+                        </div>
+                        <div class="position-item">
+                            <div class="position-title">Hardware Maintenance Engineer</div>
+                            <div class="position-period">Aug 2016 - Jul 2017</div>
+                            <div class="position-responsibilities">Networking and maintaining server rooms. Worked with Cisco Meraki Security Appliance, switching, and wireless technologies. Collaborated with IT specialists, maintenance departments, and quality inspectors to optimize infrastructure.</div>
+                        </div>
+                    </div>
+
+                    <!-- Global Net -->
+                    <div class="job-card">
+                        <div class="job-header">
+                            <img src="https://globalnet-bg.com/wp-content/uploads/2017/06/logo-globalnet.png" alt="Global Net" class="job-logo">
+                            <span class="job-company">Global Net Ltd.</span>
+                        </div>
+                        <div class="position-item">
+                            <div class="position-title">System Network Administrator</div>
+                            <div class="position-period">Oct 2015 - Aug 2016</div>
+                            <div class="position-responsibilities">Networking, VLANs, and static routing implementation. Worked with Cisco, MikroTik, and TP-Link network devices. Server room cable arrangement, antenna device administration, Linux systems optimization. Led VoIP and monitoring projects using Nagios and Zabbix.</div>
+                        </div>
+                    </div>
+
+                    <!-- Neterra -->
+                    <div class="job-card">
+                        <div class="job-header">
+                            <img src="https://neterra.net/images/upload/brands/logo-neterra_1.svg" alt="Neterra" class="job-logo">
+                            <span class="job-company">Neterra Ltd, Sofia</span>
+                        </div>
+                        <div class="position-item">
+                            <div class="position-title">VSOC Engineer (Video Services Operations Center)</div>
+                            <div class="position-period">Jan 2015 - Oct 2015</div>
+                            <div class="position-responsibilities">Direct communication with corporate and end customers for video products and services. Used customized software for surveillance and diagnostics. Lifecycle management, content management, and quality assurance of IPTV platforms.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education & Languages -->
+                <div class="section" id="education">
+                    <div class="command-line">
+                        <span class="terminal-prompt">$</span>
+                        <span class="terminal-command">cat education.json && cat languages.json</span>
+                    </div>
+                    <div class="two-column">
+                        <div>
+                            <div class="section-header"># Education</div>
+                            <div class="education-item" style="display: flex; align-items: center; gap: 16px;">
+                                <img src="https://usob.tu-sofia.bg/img/TUSlogosimple.png" alt="TU Sofia" style="width: 60px; height: 60px; object-fit: contain; flex-shrink: 0;">
+                                <div>
+                                    <div class="education-degree">Master's degree, Telecommunications Engineering</div>
+                                    <div class="education-institution">Technical University of Sofia</div>
+                                    <div class="education-period">2016 - 2018</div>
+                                </div>
+                            </div>
+                            <div class="education-item" style="display: flex; align-items: center; gap: 16px;">
+                                <img src="https://usob.tu-sofia.bg/img/TUSlogosimple.png" alt="TU Sofia" style="width: 60px; height: 60px; object-fit: contain; flex-shrink: 0;">
+                                <div>
+                                    <div class="education-degree">Bachelor's degree, Telecommunications Engineering</div>
+                                    <div class="education-institution">Technical University of Sofia</div>
+                                    <div class="education-period">2012 - 2016</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="section-header"># Languages</div>
+                            <div class="education-item">
+                                <div class="education-degree">Bulgarian</div>
+                                <div class="education-institution">Native / Mother tongue</div>
+                            </div>
+                            <div class="education-item">
+                                <div class="education-degree">English</div>
+                                <div class="education-institution">Upper-intermediate (B2)</div>
+                            </div>
+                            <div class="education-item">
+                                <div class="education-degree">German</div>
+                                <div class="education-institution">Basic proficiency (A1)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications -->
+                <div class="section" id="certifications">
+                    <div class="command-line">
+                        <span class="terminal-prompt">$</span>
+                        <span class="terminal-command">cat certifications.json</span>
+                    </div>
+                    <div class="section-header"># Professional Certifications</div>
+                    <div class="certificates-grid">
+                        <div class="certificate-item">
+                            <a href="https://www.credly.com/badges/c4911595-bf62-4562-bd39-8132f0b49143" target="_blank">
+                                <img src="https://images.credly.com/images/82e8df94-e88e-4f3b-b247-8ca5f8a5b6d4/blob" alt="LPIC-1" class="credly-badge">
+                                <div class="certificate-name">LPIC-1 Certification</div>
+                            </a>
+                        </div>
+                        <div class="certificate-item">
+                            <a href="https://www.credly.com/badges/8aad0c7a-a9f4-4d84-a6ee-56e17d425b3e" target="_blank">
+                                <img src="https://images.credly.com/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png" alt="CKA" class="credly-badge">
+                                <div class="certificate-name">CKA: Certified Kubernetes Administrator</div>
+                            </a>
+                        </div>
+                        <div class="certificate-item">
+                            <a href="https://www.credly.com/badges/a9dba925-8700-4e00-aedc-d4472d1b39b7" target="_blank">
+                                <img src="https://images.credly.com/images/123746a7-fbbe-4fdd-9c0c-f0254e53292a/blob" alt="LFS258" class="credly-badge">
+                                <div class="certificate-name">LFS258: Kubernetes Fundamentals</div>
+                            </a>
+                        </div>
+                        <div class="certificate-item">
+                            <a href="https://www.credly.com/badges/f0ea7132-c374-4ece-9250-c9edd987d1f8" target="_blank">
+                                <img src="https://images.credly.com/images/c3ab66f8-5d59-4afa-a6c2-0ba30a1989ca/CERT-Expert-DevOps-Engineer-600x600.png" alt="AZ-400" class="credly-badge">
+                                <div class="certificate-name">AZ-400: Microsoft DevOps Solutions</div>
+                            </a>
+                        </div>
+                        <div class="certificate-item">
+                            <a href="https://www.credly.com/badges/f14c494a-c9c3-42c1-a2d6-ca7eb9a3587f" target="_blank">
+                                <img src="https://images.credly.com/images/0dc62494-dc94-469a-83af-e35309f27356/blob" alt="Terraform" class="credly-badge">
+                                <div class="certificate-name">HashiCorp Terraform Associate (003)</div>
+                            </a>
+                        </div>
+                        <div class="certificate-item">
+                            <a href="https://www.credly.com/badges/218fde38-426e-40e1-b030-b4ad8c4de695" target="_blank">
+                                <img src="https://images.credly.com/images/44ed28f4-183f-4d7d-b763-d449139568a4/image.png" alt="Kong Certified" class="credly-badge">
+                                <div class="certificate-name">Kong Gateway Certified Associate</div>
+                            </a>
+                        </div>
+                        <div class="certificate-item">
+                            <a href="https://www.credly.com/badges/cf7497d0-abaf-4b13-8c95-009884d07946" target="_blank">
+                                <img src="https://images.credly.com/images/f3de2561-27e7-4b48-a2c1-223f821318f2/image.png" alt="Kong Foundations" class="credly-badge">
+                                <div class="certificate-name">Kong Gateway Foundations</div>
+                            </a>
+                        </div>
+                        <div class="certificate-item">
+                            <a href="https://www.credly.com/badges/daa97103-1fd3-4aaa-8f92-b7f54ce93b07" target="_blank">
+                                <img src="https://images.credly.com/images/dc659664-82e7-4b14-aee6-60130f28eb64/image.png" alt="Kong Operations" class="credly-badge">
+                                <div class="certificate-name">Kong Gateway Operations</div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="other-certs">
+                        <div class="section-header"># Other Certifications</div>
+                        <div>
+                            <span class="other-cert">Vim Masterclass <span class="other-cert-provider">- Udemy</span></span>
+                            <span class="other-cert">Ansible for the Absolute Beginner <span class="other-cert-provider">- Udemy</span></span>
+                            <span class="other-cert">Ansible Advanced - Hands-On <span class="other-cert-provider">- Udemy</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hobbies -->
+                <div class="section" id="hobbies">
+                    <div class="command-line">
+                        <span class="terminal-prompt">$</span>
+                        <span class="terminal-command">cat hobbies.json</span>
+                    </div>
+                    <div class="section-header"># Interests & Hobbies</div>
+                    <div class="hobbies-list">
+                        <span class="hobby-tag">Remote Working</span>
+                        <span class="hobby-tag">Martial Arts</span>
+                        <span class="hobby-tag">Open Source</span>
+                        <span class="hobby-tag">Linux</span>
+                        <span class="hobby-tag">Distributed Systems</span>
+                    </div>
+                </div>
+
+                <!-- Footer -->
+                <div class="footer">
+                    <div class="terminal-line" style="justify-content: center;">
+                        <span class="terminal-prompt">$</span>
+                        <span class="terminal-command"> echo "Thanks for visiting!"</span>
+                    </div>
+                    <p style="margin-top: 12px;"><a href="mailto:rado@rjangelov.com">Contact me</a></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Navigation toggle
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            const hamburger = document.getElementById('hamburger');
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        }
+
+        // Close menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                const navLinks = document.getElementById('navLinks');
+                const hamburger = document.getElementById('hamburger');
+                navLinks.classList.remove('active');
+                hamburger.classList.remove('active');
+            });
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            const nav = document.querySelector('.nav');
+            const hamburger = document.getElementById('hamburger');
+            const navLinks = document.getElementById('navLinks');
+
+            if (!nav.contains(e.target) && navLinks.classList.contains('active')) {
+                navLinks.classList.remove('active');
+                hamburger.classList.remove('active');
+            }
+        });
+
+        // Random DevOps quotes
+        const devopsQuotes = [
+            '"It works on my machine." - Every developer ever',
+            '"Infrastructure as code, coffee as fuel." - Anonymous DevOps',
+            '"There is no place like 127.0.0.1" - Unknown',
+            '"Automate all the things!" - DevOps Mantra',
+            '"In DevOps we trust, in YAML we must." - Anonymous',
+            '"Friends don\'t let friends deploy on Fridays." - DevOps Wisdom',
+            '"It\'s not a bug, it\'s an undocumented feature." - Anonymous',
+            '"kubectl apply -f happiness.yaml" - Kubernetes Enthusiast',
+            '"To be or not to be, that\'s a boolean." - DevOps Shakespeare',
+            '"99 little bugs in the code, 99 bugs in the code. Take one down, patch it around... 127 little bugs in the code." - Anonymous',
+            '"The cloud is just someone else\'s computer." - Reality Check',
+            '"Ship it and let the monitoring sort it out." - Brave DevOps',
+            '"There are only two hard things in DevOps: cache invalidation, naming things, and off-by-one errors." - Anonymous',
+            '"Containers: Because \'But it works on my machine\' needed a solution." - Docker Fan',
+            '"git push --force and pray" - Living Dangerously',
+            '"Terraform plan: 0 to add, 0 to change, 47 to destroy. Proceed? (yes/no)" - Terrifying Moments',
+            '"YAML: Yet Another Markup Language that will ruin your day with indentation." - Frustrated Engineer',
+            '"Monitoring is like a smoke detector - you don\'t appreciate it until something\'s on fire." - Anonymous'
+        ];
+
+        function displayRandomQuote() {
+            const quoteElement = document.getElementById('devops-quote');
+            const randomIndex = Math.floor(Math.random() * devopsQuotes.length);
+            quoteElement.textContent = devopsQuotes[randomIndex];
+        }
+
+        // Display quote on page load
+        displayRandomQuote();
+    </script>
+</body>
+</html>
