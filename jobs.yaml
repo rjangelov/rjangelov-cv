@@ -29,16 +29,16 @@ jobs:
   #        responsibilities:
   #          - "Designed and operated the end-to-end cloud delivery workflow on GCP, covering environment provisioning, CI/CD enablement, automated GitLab workflows, and platform observability. Led DevOps ownership for multi-environment rollout, SDLC planning, and alignment with the client's infrastructure and security policies."
   #
-  #  - company: "NTT DATA Business Solutions"
-  #    logo: "https://cdn.brandfetch.io/idleaUWqtx/w/320/h/320/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B"
-  #    logo_width: "100px"
-  #    logo_height: "100px"
-  #    positions:
-  #      - title: "Sr. DevOps Engineer"
-  #        period: "March 2025 - June 2025"
-  #        responsibilities:
-  #          - "In this role, I have been outsourced through NTT Data as a DevOps consultant for a leading technology company. My responsibilities have included designing and advising on DevOps process architecture by organizing concepts into well-defined abstraction layers, supported by comprehensive documentation and diagrams. I have also contributed to the exposure and internal adoption of an open-sourced internal product. My work spans across implementing CI/CD pipeline solutions, Kubernetes-based deployments, and infrastructure provisioning using Terraform."
-  #
+  - company: "NTT DATA Business Solutions"
+    logo: "https://cdn.brandfetch.io/idleaUWqtx/w/320/h/320/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B"
+    logo_width: "100px"
+    logo_height: "100px"
+    positions:
+      - title: "Sr. DevOps Engineer"
+        period: "March 2025 - June 2025"
+        responsibilities:
+          - "In this role, I have been outsourced through NTT Data as a DevOps consultant for a leading technology company. My responsibilities have included designing and advising on DevOps process architecture by organizing concepts into well-defined abstraction layers, supported by comprehensive documentation and diagrams. I have also contributed to the exposure and internal adoption of an open-sourced internal product. My work spans across implementing CI/CD pipeline solutions, Kubernetes-based deployments, and infrastructure provisioning using Terraform."
+
   - company: "EADX"
     logo: "https://www.eadx.com/wp-content/uploads/2023/03/site-logo.svg"
     logo_width: "100px"
